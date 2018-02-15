@@ -1,4 +1,6 @@
-function feedCat(){
-    alert("Kibble, tinned food and water");
-}
-alert(feedCat instanceof Object);
+var result = (function () { 
+    var name = "Barry"; 
+    console.log(name);
+    return name; 
+})(); 
+// Immediately creates the output: 
